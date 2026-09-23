@@ -13,11 +13,14 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.santiagorey.statesjetpackcompose.ui.theme.StatesJetpackcomposeTheme
 
-@Preview(
-    showBackground = true
-)
+class MainActivity : ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
+        setContent {
 
-@Composable
-fun estados () {
-
+                }
+            }
+        }
+    }
 }
