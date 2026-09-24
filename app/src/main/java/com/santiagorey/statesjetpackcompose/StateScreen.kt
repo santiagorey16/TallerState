@@ -52,7 +52,6 @@ fun StateScreen() {
                 .height(200.dp)
                 .clip(CircleShape)
         )
-        Text("Contador: $contador", fontSize = 32.sp)
         Spacer(modifier = Modifier.height(25.dp))
         Button(onClick = {
             Log.i("mis-errores", "Estoy dando click")
